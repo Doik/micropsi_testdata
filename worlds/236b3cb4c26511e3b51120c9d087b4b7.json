@@ -1,0 +1,54 @@
+{
+    "agents": {
+        "2ac4bf50c26511e3993220c9d087b4b7": {
+            "name": "Braitenberg", 
+            "position": [
+                545, 
+                537
+            ], 
+            "type": "Braitenberg", 
+            "uid": "2ac4bf50c26511e3993220c9d087b4b7"
+        }
+    }, 
+    "assets": {
+        "background": "island/psi_1.png", 
+        "icons": {
+            "Braitenberg": "island/braitenberg.png", 
+            "Lightsource": "island/lamp.png"
+        }, 
+        "js": "island/island.js", 
+        "x": 2048, 
+        "y": 2048
+    }, 
+    "name": "Mysland", 
+    "objects": {
+        "ad23dcd8c26511e3b4b420c9d087b4b7": {
+            "name": "Light", 
+            "orientation": 0.0, 
+            "parameters": {}, 
+            "position": [
+                696.0909099578857, 
+                261.97727966308594
+            ], 
+            "type": "Lightsource", 
+            "uid": "ad23dcd8c26511e3b4b420c9d087b4b7"
+        }
+    }, 
+    "owner": "admin", 
+    "step": 0, 
+    "uid": "236b3cb4c26511e3b51120c9d087b4b7", 
+    "version": 1, 
+    "world_type": "Island", 
+    "worldadapters": {
+        "Braitenberg": {
+            "datasources": [
+                "brightness_r", 
+                "brightness_l"
+            ], 
+            "datatargets": [
+                "engine_r", 
+                "engine_l"
+            ]
+        }
+    }
+}

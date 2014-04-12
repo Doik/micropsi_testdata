@@ -1,0 +1,119 @@
+{
+    "links": {
+        "7eba2cc2-bff2-4594-93e5-301e23fcd168": {
+            "certainty": 1, 
+            "source_gate_name": "gen", 
+            "source_node": "6dbf01fd-4d59-49dc-a4c9-3618843afb49", 
+            "source_node_uid": "6dbf01fd-4d59-49dc-a4c9-3618843afb49", 
+            "target_node": "66205f1a-083e-4b78-b4a5-b0ecc97389f2", 
+            "target_node_uid": "66205f1a-083e-4b78-b4a5-b0ecc97389f2", 
+            "target_slot_name": "gen", 
+            "uid": "7eba2cc2-bff2-4594-93e5-301e23fcd168", 
+            "weight": 1
+        }, 
+        "c5fd3134-85ac-4c41-83da-bbbbc76923dc": {
+            "certainty": 1, 
+            "source_gate_name": "gen", 
+            "source_node": "5f3d77fc-b70b-4e8b-a9ae-8ee624ddba31", 
+            "source_node_uid": "5f3d77fc-b70b-4e8b-a9ae-8ee624ddba31", 
+            "target_node": "cd1d7091-f570-4156-8440-db147dcb244b", 
+            "target_node_uid": "cd1d7091-f570-4156-8440-db147dcb244b", 
+            "target_slot_name": "gen", 
+            "uid": "c5fd3134-85ac-4c41-83da-bbbbc76923dc", 
+            "weight": 1
+        }
+    }, 
+    "name": "Braitenberg", 
+    "nodes": {
+        "5f3d77fc-b70b-4e8b-a9ae-8ee624ddba31": {
+            "activation": 0.0, 
+            "gate_activations": {
+                "gen": 0.0
+            }, 
+            "index": 3, 
+            "name": "", 
+            "parameters": {
+                "datasource": "brightness_r"
+            }, 
+            "parent_nodespace": "Root", 
+            "position": [
+                416, 
+                123
+            ], 
+            "type": "Sensor", 
+            "uid": "5f3d77fc-b70b-4e8b-a9ae-8ee624ddba31"
+        }, 
+        "66205f1a-083e-4b78-b4a5-b0ecc97389f2": {
+            "activation": 0.0, 
+            "gate_activations": {
+                "gen": 0.0
+            }, 
+            "index": 5, 
+            "name": "", 
+            "parameters": {
+                "datatarget": "engine_r"
+            }, 
+            "parent_nodespace": "Root", 
+            "position": [
+                412, 
+                284
+            ], 
+            "type": "Actor", 
+            "uid": "66205f1a-083e-4b78-b4a5-b0ecc97389f2"
+        }, 
+        "6dbf01fd-4d59-49dc-a4c9-3618843afb49": {
+            "activation": 0.0, 
+            "gate_activations": {
+                "gen": 0.0
+            }, 
+            "index": 2, 
+            "name": "", 
+            "parameters": {
+                "datasource": "brightness_l"
+            }, 
+            "parent_nodespace": "Root", 
+            "position": [
+                179, 
+                130
+            ], 
+            "type": "Sensor", 
+            "uid": "6dbf01fd-4d59-49dc-a4c9-3618843afb49"
+        }, 
+        "cd1d7091-f570-4156-8440-db147dcb244b": {
+            "activation": 0.0, 
+            "gate_activations": {
+                "gen": 0.0
+            }, 
+            "index": 4, 
+            "name": "", 
+            "parameters": {
+                "datatarget": "engine_l"
+            }, 
+            "parent_nodespace": "Root", 
+            "position": [
+                187, 
+                288
+            ], 
+            "type": "Actor", 
+            "uid": "cd1d7091-f570-4156-8440-db147dcb244b"
+        }
+    }, 
+    "nodespaces": {
+        "Root": {
+            "index": 1, 
+            "name": "Root", 
+            "parent_nodespace": null, 
+            "position": [
+                0, 
+                0
+            ], 
+            "uid": "Root"
+        }
+    }, 
+    "owner": "admin", 
+    "step": 0, 
+    "uid": "2ac4bf50c26511e3993220c9d087b4b7", 
+    "version": 1, 
+    "world": "236b3cb4c26511e3b51120c9d087b4b7", 
+    "worldadapter": "Braitenberg"
+}
