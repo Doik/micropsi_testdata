@@ -1,4 +1,4 @@
-test_nodenets
+micropsi testdata
 =============
 
-nodenet repository for micropsi2 testing
+test repository for micropsi2 nodenet, world, etc.
