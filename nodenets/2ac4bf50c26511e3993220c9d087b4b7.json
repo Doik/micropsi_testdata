@@ -1,5 +1,16 @@
 {
     "links": {
+        "1cdfc436-3b94-4bab-bcf3-bc4c823cd837": {
+            "certainty": 1, 
+            "source_gate_name": "hum", 
+            "source_node": "705cc048-c0a5-4112-8d82-28bf6ee9c36a", 
+            "source_node_uid": "705cc048-c0a5-4112-8d82-28bf6ee9c36a", 
+            "target_node": "cc068768-f30e-43f1-9c95-16e7b64e070f", 
+            "target_node_uid": "cc068768-f30e-43f1-9c95-16e7b64e070f", 
+            "target_slot_name": "bug", 
+            "uid": "1cdfc436-3b94-4bab-bcf3-bc4c823cd837", 
+            "weight": 1
+        }, 
         "7eba2cc2-bff2-4594-93e5-301e23fcd168": {
             "certainty": 1, 
             "source_gate_name": "gen", 
@@ -20,6 +31,17 @@
             "target_node_uid": "cd1d7091-f570-4156-8440-db147dcb244b", 
             "target_slot_name": "gen", 
             "uid": "c5fd3134-85ac-4c41-83da-bbbbc76923dc", 
+            "weight": 1
+        }, 
+        "f6c164f1-f564-48a4-8a9a-bf1ff131e325": {
+            "certainty": 1, 
+            "source_gate_name": "bug", 
+            "source_node": "cc068768-f30e-43f1-9c95-16e7b64e070f", 
+            "source_node_uid": "cc068768-f30e-43f1-9c95-16e7b64e070f", 
+            "target_node": "705cc048-c0a5-4112-8d82-28bf6ee9c36a", 
+            "target_node_uid": "705cc048-c0a5-4112-8d82-28bf6ee9c36a", 
+            "target_slot_name": "hum", 
+            "uid": "f6c164f1-f564-48a4-8a9a-bf1ff131e325", 
             "weight": 1
         }
     }, 
@@ -78,6 +100,42 @@
             ], 
             "type": "Sensor", 
             "uid": "6dbf01fd-4d59-49dc-a4c9-3618843afb49"
+        }, 
+        "705cc048-c0a5-4112-8d82-28bf6ee9c36a": {
+            "activation": 0.0, 
+            "gate_activations": {
+                "bug": 0, 
+                "gen": 0.0, 
+                "hum": 0
+            }, 
+            "index": 6, 
+            "name": "", 
+            "parameters": {}, 
+            "parent_nodespace": "Root", 
+            "position": [
+                691, 
+                163
+            ], 
+            "type": "Humbug", 
+            "uid": "705cc048-c0a5-4112-8d82-28bf6ee9c36a"
+        }, 
+        "cc068768-f30e-43f1-9c95-16e7b64e070f": {
+            "activation": 0.0, 
+            "gate_activations": {
+                "bug": 0, 
+                "gen": 0.0, 
+                "hum": 0
+            }, 
+            "index": 7, 
+            "name": "", 
+            "parameters": {}, 
+            "parent_nodespace": "Root", 
+            "position": [
+                690, 
+                62
+            ], 
+            "type": "Humbug", 
+            "uid": "cc068768-f30e-43f1-9c95-16e7b64e070f"
         }, 
         "cd1d7091-f570-4156-8440-db147dcb244b": {
             "activation": 0.0, 

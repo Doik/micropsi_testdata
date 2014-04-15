@@ -1,0 +1,11 @@
+{
+
+    "Humbug": {
+        "name": "Humbug",
+        "slottypes": ["gen", "hum", "bug"],
+        "nodefunction_name": "humbug",
+        "gatetypes": ["gen", "hum", "bug"],
+        "shape": "Rectangle",
+        "symbol": "ø"
+    }
+}
