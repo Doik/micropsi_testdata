@@ -5,6 +5,7 @@
         "slottypes": ["gen", "hum", "bug"],
         "nodefunction_name": "humbug",
         "gatetypes": ["gen", "hum", "bug"],
+        "nodefunction_name": "humbug",
         "shape": "Rectangle",
         "symbol": "ø"
     }
